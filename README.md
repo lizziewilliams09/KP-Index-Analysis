@@ -13,6 +13,7 @@ This project explores the relationship between solar events (including CMEs, sol
   * Exploratory data analysis: histograms, scatterplots, bar charts, heatmaps
   * Statistical tests: Mann-Whitney U, Pearson & Spearman correlations, regression analysis
   * Visualizations and insights on how solar events influence the Kp Index
+    All graphs and analysis are already included, so you can view the results directly without rerunning the notebook.
 * **`README.md`** - This file, describing the project.
 
 ## Requirements
@@ -40,4 +41,5 @@ pip install requests pandas numpy matplotlib seaborn scipy
 1. Ensure all CSV files are in the main repository folder.
 2. Open `kp_index_analysis.ipynb` in Jupyter Notebook or JupyterLab.
 3. Run the notebook cells to reproduce all graphs, statistical tests, and insights.
+
 
