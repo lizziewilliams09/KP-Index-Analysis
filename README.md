@@ -7,13 +7,14 @@ This project explores the relationship between solar events (including CMEs, sol
 * **CSV files** - Contain processed solar event and Kp Index data. All CSVs are used in the analysis notebook.
 * **`kp_index_analysis.ipynb`** - The main Jupyter notebook. Includes:
 
-  * Loading and merging all datasets
+  * Loading and merging datasets
   * Cleaning and preprocessing data
   * Feature engineering (CME speed, flare counts, HSS/IPS counts, etc.)
   * Exploratory data analysis: histograms, scatterplots, bar charts, heatmaps
-  * Statistical tests: Mann-Whitney U, Pearson & Spearman correlations, regression analysis
-  * Visualizations and insights on how solar events influence the Kp Index
-    All graphs and analysis are already included, so you can view the results directly without rerunning the notebook.
+  * Performing statistical tests: Mann-Whitney U, Pearson & Spearman correlations, regression analysis
+  * Generating visualizations and insights on how solar events influence the Kp Index
+
+  All graphs and analysis are already included, so you can view the results directly without rerunning the notebook.
 * **`README.md`** - This file, describing the project.
 
 ## Requirements
@@ -41,5 +42,6 @@ pip install requests pandas numpy matplotlib seaborn scipy
 1. Ensure all CSV files are in the main repository folder.
 2. Open `kp_index_analysis.ipynb` in Jupyter Notebook or JupyterLab.
 3. Run the notebook cells to reproduce all graphs, statistical tests, and insights.
+
 
 
