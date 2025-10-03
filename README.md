@@ -40,6 +40,3 @@ pip install requests pandas numpy matplotlib seaborn scipy
 1. Ensure all CSV files are in the **main repository folder**.
 2. Open `kp_index_analysis.ipynb` in Jupyter Notebook or JupyterLab.
 3. Run the notebook cells to reproduce all graphs, statistical tests, and insights.
-
-
-If you want, I can also **add a short “What’s in the notebook” summary** that lists a few of the key plots and statistical findings. That way anyone can get a sense of what the repo actually shows **without opening it**. Do you want me to do that?
