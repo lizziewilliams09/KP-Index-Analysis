@@ -1,29 +1,45 @@
-# jf24310_EMATM0048
+# Geomagnetic Analysis: Kp Index & Solar Events
 
-Link to github repository:
-https://github.com/lizziewilliams09/jf24310_EMATM0048.git
+This project explores the relationship between **solar events** — including **CMEs, solar flares, HSS, and IPS events** — and **geomagnetic disturbances** on Earth, measured by the **Kp Index** (2021–2024). The analysis includes data collection, preprocessing, exploratory visualizations, and statistical testing.
 
-# Geomagnetic Analysis: README
+## Project Structure
 
-This project analyzes the relationship between solar events (e.g., CMEs, flares, HSS, IPS) and geomagnetic disturbances, measured by the Kp Index.
+* **CSV files** – Contain processed solar event and Kp Index data. All CSVs are used in the analysis notebook.
+* **`kp_index_analysis.ipynb`** – The main Jupyter notebook. Includes:
+
+  * Loading and merging all datasets
+  * Cleaning and preprocessing data
+  * Feature engineering (CME speed, flare counts, HSS/IPS counts, etc.)
+  * Exploratory data analysis: histograms, scatterplots, bar charts, heatmaps
+  * Statistical tests: Mann-Whitney U, Pearson & Spearman correlations, regression analysis
+  * Visualizations and insights on how solar events influence the Kp Index
+* **`README.md`** – This file, describing the project.
 
 ## Requirements
 
-To run the code, you will need to install the following Python packages:
+To run the code, you will need the following Python packages:
 
-- `requests` – for fetching data from APIs
-- `json` – for working with JSON data
-- `pandas` – for handling and analyzing data
-- `numpy` – for numerical calculations
-- `matplotlib` – for creating visualizations
-- `seaborn` – for advanced plotting
-- `scipy` – for performing statistical tests
-
----
+* `requests` – fetching data from APIs
+* `json` – handling JSON data
+* `pandas` – data manipulation and analysis
+* `numpy` – numerical computations
+* `matplotlib` – plotting and visualization
+* `seaborn` – advanced plotting
+* `scipy` – statistical tests
 
 ## Installation
 
-Install the required packages using the following command:
+Install the required packages using:
 
 ```bash
 pip install requests pandas numpy matplotlib seaborn scipy
+```
+
+## Usage
+
+1. Ensure all CSV files are in the **main repository folder**.
+2. Open `kp_index_analysis.ipynb` in Jupyter Notebook or JupyterLab.
+3. Run the notebook cells to reproduce all graphs, statistical tests, and insights.
+
+
+If you want, I can also **add a short “What’s in the notebook” summary** that lists a few of the key plots and statistical findings. That way anyone can get a sense of what the repo actually shows **without opening it**. Do you want me to do that?
